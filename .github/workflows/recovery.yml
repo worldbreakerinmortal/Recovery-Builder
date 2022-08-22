@@ -15,7 +15,7 @@ on:
 env:
   MANIFEST: https://gitlab.com/OrangeFox/Manifest
   DEVICE: YTX705
-  DT_LINK: https://gitlab.com/saenzfelix0/twrp_device_lenovo_YTX705
+  DT_LINK: https://github.com/worldbreakerinmortal/twrp_device_lenovo_YTX705
   DT_PATH: device/lenovo/YTX705
   TARGET: recoveryimage
   TZ: Asia/manila
