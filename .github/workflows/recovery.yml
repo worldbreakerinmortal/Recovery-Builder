@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: https://gitlab.com/OrangeFox/Manifest
-  DEVICE: YT-X705F
-  DT_LINK: https://github.com/worldbreakerinmortal/YTX705F-DEVICE-TREE
-  DT_PATH: device/lenovo/YT-X705F
+  DEVICE: YTX705F
+  DT_LINK: https://github.com/worldbreakerinmortal/twrp-lenovo-YTX705F
+  DT_PATH: device/lenovo/YTX705F
   TARGET: recoveryimage
   TZ: Asia/manila
 
@@ -63,6 +63,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
           tag_name: TWRP_10.0
-          name: TWRP-YT-X705F
+          name: TWRP-YTX705F
           files: | 
-            work/out/target/product/YT-X705F/recovery.img
+            work/out/target/product/YTX705F/recovery.img
