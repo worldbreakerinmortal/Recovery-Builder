@@ -55,6 +55,7 @@ jobs:
              
        - name: Build
          run: |
+              git clone https://gitlab.com/OrangeFox/misc/theme.git bootable/recovery/gui/theme
               cd work
               . build/envsetup.sh &&lunch omni_$DEVICE-eng &&export ALLOW_MISSING_DEPENDENCIES=true && mka $TARGET
              
