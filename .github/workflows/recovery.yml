@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/SHRP/platform_manifest_twrp_omni
+  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb
   DEVICE: YTX705
   DT_LINK: https://github.com/worldbreakerinmortal/twrp_device_lenovo_YTX705
   DT_PATH: device/lenovo/YTX705
@@ -62,7 +62,7 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
-          tag_name: v3_10.0
-          name: SkyHawk-YTX705
+          tag_name: android-9.0
+          name: PitchBlack-YTX705
           files: | 
             work/out/target/product/YTX705/recovery.img
